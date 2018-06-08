@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor blackColor];
     
-    _player = [[RTMPPlayer alloc] initWithURL:@"rtmp://live.hkstv.hk.lxdns.com/live/hks"];
+    _player = [[RTMPPlayer alloc] initWithURL:@"rtmp://your_url"];
     UIView* view = _player.videoView;
     view.frame = self.view.bounds;
     [self.view addSubview:view];
